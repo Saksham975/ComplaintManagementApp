@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshamtulsyan.complaintapp.MainFragment"
+    android:id="@+id/main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Type of Complaint"
+        android:id="@+id/textView8"
+        android:layout_marginTop="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/submit"
+        android:layout_marginEnd="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Issue in detail:"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/issue"
+        android:width="130dp"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginStart="168dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:id="@+id/button"
+        android:layout_below="@+id/issue"
+        android:layout_alignEnd="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignEnd="@+id/issue"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignStart="@+id/issue"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

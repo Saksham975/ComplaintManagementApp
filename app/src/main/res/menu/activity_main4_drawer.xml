@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reg_complaint"
+            android:icon="@mipmap/ic_mode_edit_black_24dp"
+            android:title="Register Complaint" />
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/recent_comp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Recent Complaints" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@mipmap/ic_feedback_black_24dp"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

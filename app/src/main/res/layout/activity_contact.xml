@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sakshamtulsyan.complaintapp.ContactActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact number:"
+        android:id="@+id/textView22"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email-id:"
+        android:id="@+id/textView23"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_toStartOf="@+id/findus" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Us"
+        android:id="@+id/findus"
+        android:layout_marginTop="107dp"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(+91)9696132100"
+        android:id="@+id/textView25"
+        android:layout_above="@+id/textView23"
+        android:layout_toEndOf="@+id/findus"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="vituni@vit.ac.in"
+        android:id="@+id/textView26"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Name"
+        android:id="@+id/textView24"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/textView22"
+        android:layout_alignEnd="@+id/textView23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Saksham Tulsyan"
+        android:id="@+id/textView27"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_toEndOf="@+id/findus" />
+
+</RelativeLayout>
